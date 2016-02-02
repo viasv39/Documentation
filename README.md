@@ -14,7 +14,7 @@ This can be our central repository for everything in this class. The idea is to 
 
 | Name | Due Date | URL |
 |:----:|:--------:|:---:|
-| Agile | Tues 2/9/16 | [Google Doc Link](https://docs.google.com/document/d/1QORhY814GEakSgoz7CxzIHl-d5D4km9Z0898e_rWDmg/edit?usp=sharing) |
+| Agile Methodology | Tues 2/9/16 | [Google Doc Link](https://docs.google.com/document/d/1QORhY814GEakSgoz7CxzIHl-d5D4km9Z0898e_rWDmg/edit?usp=sharing) |
 
 ## Agenda
 
