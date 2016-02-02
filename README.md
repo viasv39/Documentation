@@ -20,9 +20,9 @@ This can be our central repository for everything in this class. The idea is to 
 
 This is a general calendar for the events, meetings, due dates that may be coming up. This only should be used to communicate deadlines. When the events have passed, they should be removed from this list for ease of viewing.
 
-| Event Title | Location | Start | End |
-|:-----------:|:--------:|:-----:|:---:|
-| Intro Meeting | Library 3505 | 2/3/16 12pm | 12:45pm |
+| Event Title | Location | Start | End | Agenda/Notes |
+|:-----------:|:--------:|:-----:|:---:|:--------------------:|
+| Intro Meeting | Library 3505 | 2/3/16 12pm | 12:45pm | [GitHub Link](https://github.com/danielmj/CSC190/blob/master/meeting-notes/contributor/2-3-16.md)
 
 ## Meeting Notes
 
