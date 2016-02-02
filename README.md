@@ -14,13 +14,14 @@ This can be our central repository for everything in this class. The idea is to 
 
 | Name | Due Date | URL |
 |:----:|:--------:|:---:|
-| Agile | T 2/9/16 | [Link](https://docs.google.com/document/d/1QORhY814GEakSgoz7CxzIHl-d5D4km9Z0898e_rWDmg/edit?usp=sharing) |
+| Agile | Tues 2/9/16 | [Google Doc Link](https://docs.google.com/document/d/1QORhY814GEakSgoz7CxzIHl-d5D4km9Z0898e_rWDmg/edit?usp=sharing) |
 
 ## Agenda
 
 This is a general calendar for the events, meetings, due dates that may be coming up. This only should be used to communicate deadlines. When the events have passed, they should be removed from this list for ease of viewing.
 
 | Event Title | Location | Start | End |
+|:-----------:|:--------:|:-----:|:---:|
 | Intro Meeting | 2/3/16 | | |
 
 ## Meeting Notes
