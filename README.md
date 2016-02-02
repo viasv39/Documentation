@@ -22,7 +22,7 @@ This is a general calendar for the events, meetings, due dates that may be comin
 
 | Event Title | Location | Start | End |
 |:-----------:|:--------:|:-----:|:---:|
-| Intro Meeting | 2/3/16 | | |
+| Intro Meeting | Library 3505 | 2/3/16 12pm | 12:45pm |
 
 ## Meeting Notes
 
