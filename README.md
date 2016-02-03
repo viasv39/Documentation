@@ -46,9 +46,10 @@ Resources that we can use for the project.
 
 | Name | Phone (for texting) | Email |
 |:----:|:-------------------:|:-----:|
-| Joel | | |
-| Alejandro | | |
-| Aaron | | |
+| Joel | 916 873 3304 | so03sa@yahoo.com |
+| Alejandro | 209 242 3132 | alejandropena16@yahoo.com |
+| Aaron |916 572 4157 | awilliams1490@yahoo.com |
 | Dan | 5309086098 | danielmj@me.com |
-| Jeff | | | 
+| Jeff | 916 221 1659|jeppy7@hotmail.com |
+| Walter |  916 761 2980 | motolubu39@yahoo.com  |
 | TJ | | | 
