@@ -52,4 +52,3 @@ Resources that we can use for the project.
 | Dan | 5309086098 | danielmj@me.com |
 | Jeff | 916 221 1659|jeppy7@hotmail.com |
 | Walter |  916 761 2980 | motolubu39@yahoo.com  |
-| TJ | | | 
