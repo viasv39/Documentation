@@ -22,7 +22,8 @@ This is a general calendar for the events, meetings, due dates that may be comin
 
 | Event Title | Location | Start | End | Agenda/Notes |
 |:-----------:|:--------:|:-----:|:---:|:--------------------:|
-| Team Meeting | Library 3504 | 2/10/16 12pm | 12:45pm | No link yet.
+| Team Meeting | Library 3504 | 2/10/16 12pm | 12:45pm | No link yet. |
+| Meet With Dai | RVR 5060 | Mon 2/8/16 3:15pm | 3:45pm | n/a | 
 
 ## Meeting Notes
 
