@@ -14,7 +14,7 @@ Its good practice to utilize "pull requests" when making changes. To do this:
 
 1. Navigate to the [Github repo](https://github.com/danielmj/CSC190)
 2. Click "Fork" in the top right. This will essentially make a copy of the repo and put it in your profile.
-3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing <your-github-username>.
+3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your github handle.
 4. Copy the url next to "HTTPS"
 
 ### Creating Local Clone
@@ -38,12 +38,12 @@ Eventually, someone else will make a change to the repo. You will need to be pro
 git remote add upstream https://github.com/danielmj/CSC190      # This is the master branch
 ```
 
-3. Check it out:
+3. View your remotes:
 
 ```bash
 git remote -v 		# This will show all of the remote urls that you have stored
 
-# You should have 4 lines:
+# You should have 4 lines that look like this:
 # upstream 	https://github.com/danielmj/CSC190.git (fetch)
 # upstream 	https://github.com/danielmj/CSC190.git (push)
 # origin 	https://github.com/<your-github-username>/CSC190.git (fetch)
@@ -60,10 +60,10 @@ git remote -v 		# This will show all of the remote urls that you have stored
 3. Type the following:
 
 ```bash
-git pull --rebase upstream master		# Pull the master branch from the upstream url
+git pull --rebase upstream master		# Pull the master branch from the upstream url and integrate with current code
 ```
 
-3. If there are conflicts, handle them.
+4. If there are conflicts, handle them.
 
 > ***MAKE YOUR CHANGES...***
 > ***NOTIFY THE GROUP IN SLACK OF WHAT YOU ARE WORKING ON!!!!!!!***
@@ -82,7 +82,7 @@ git commit -m "Info about your commit" 		# commit your changes to your local rep
 git push origin master	# Push the changes that you made to your master branch to the origin remote url (your fork of the repo)
 ```
 
-4. Go to your fork and check:  `https://github.com/<your-github-username>/CSC190`
+4. Go to your fork and look for your changes:  `https://github.com/<your-github-username>/CSC190`
 5. Click create pull request. You should see that the changes are coming from your fork: `<your-github-username>/CSC190  master branch` and going to the base fork: `danielmj/CSC190  master branch`
 6. Make notes as to what you are changing
 7. Finish creating it and notify the group
@@ -99,9 +99,9 @@ git stash			# Stash your current changes
 git stash pop		# Unstash your current changes
 git diff				# Show differences
 git diff HEAD		# Show differences with what is on the HEAD
-git commit -m "Add Message Here" 
-git pull --rebase origin master
-git push <remote-name> master
+git commit -m "Add Message Here" # you can also leave off the `-m "Message` part. It will give you a vim window to type in.
+git pull --rebase origin master # pull latest code from the upstream
+git push origin master # always push to your fork
 ```
 
 
