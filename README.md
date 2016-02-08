@@ -2,6 +2,8 @@
 
 This can be our central repository for everything in this class. The idea is to utilize git for managing:
 
+HELLO WORLD
+
 - Papers
 - Agenda
 - Meeting Notes 
