@@ -6,25 +6,25 @@ Hey all, I decided to add a quick how to on making updates to the Github repo.
 
 ## The Setup
 
-This will setup the repo locally on your machine.
+This will setup the repo locally on your machine. 
 
-### Forking The Repo
+### Forking The Repo 
 
-Its good practice to utilize "pull requests" when making changes. To do this:
+Its good practice to utilize "pull requests" when making changes. To do this:  
 
-1. Navigate to the [Github repo](https://github.com/danielmj/CSC190)
-2. Click "Fork" in the top right. This will essentially make a copy of the repo and put it in your profile.
-3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your github handle.
+1. Navigate to the [Github repo](https://github.com/danielmj/CSC190) 
+2. Click "Fork" in the top right. This will essentially make a copy of the repo and put it in your profile. 
+3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your github handle.  
 4. Copy the url next to "HTTPS"
-
+ 
 ### Creating Local Clone
-
-1. Install Git on your machine: [Instructions](https://help.github.com/articles/set-up-git/)
-2. Open terminal or command prompt(Windows)
+ 
+1. Install Git on your machine: [Instructions](https://help.github.com/articles/set-up-git/) 
+2. Open terminal or command prompt(Windows) 
 3. Navigate to the folder on the command line where you want to store the directory
 4. Type:
 ```bash
-git clone <paste-HTTPS-url-from-your-Github-fork>
+git clone <paste-HTTPS-url-from-your-Github-fork> 
 ```
 
 ### Add "upstream" Remote URL to Pull Latest Code
@@ -85,7 +85,7 @@ git push origin master	# Push the changes that you made to your master branch to
 4. Go to your fork and look for your changes:  `https://github.com/<your-github-username>/CSC190`
 5. Click create pull request. You should see that the changes are coming from your fork: `<your-github-username>/CSC190  master branch` and going to the base fork: `danielmj/CSC190  master branch`
 6. Make notes as to what you are changing
-7. Finish creating it and notify the group
+7. Finish creating it and notify the group 
 
 ---
 
@@ -103,5 +103,3 @@ git commit -m "Add Message Here" # you can also leave off the `-m "Message` part
 git pull --rebase origin master # pull latest code from the upstream
 git push origin master # always push to your fork
 ```
-
-

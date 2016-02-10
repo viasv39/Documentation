@@ -14,6 +14,7 @@ test
 
 | Name | Due Date | URL |
 |:----:|:--------:|:---:|
+| -    | -          | -   |
 
 ## Agenda
 
@@ -25,15 +26,15 @@ This is a general calendar for the events, meetings, due dates that may be comin
 
 ## Meeting Notes
 
-Use the subdirector `/meeting-notes` to record notes of each meeting.
+Use the subdirectory `/meeting-notes` to record notes of each meeting.
 
 ## Documentation, PRD, SRS
 
-Lets link to some documentaion here. (Google Docs Preffered)
+Lets link to some documentation here. (Google Docs Preferred)
 
 ## Source Code
 
-Use the subdirector `source` for the code for the projec
+Use the subdirectory `/source` for the code for the project.
 
 ## Resources
 
