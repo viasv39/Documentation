@@ -1,7 +1,7 @@
 # CSC 190 Project
 
 This can be our central repository for everything in this class. The idea is to utilize git for managing:
-
+test
 - Papers
 - Agenda
 - Meeting Notes 
