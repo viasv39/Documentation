@@ -14,7 +14,7 @@ Its good practice to utilize "pull requests" when making changes. To do this:
 
 1. Navigate to the [Github repo](https://github.com/danielmj/CSC190) 
 2. Click "Fork" in the top right. This will essentially make a copy of the repo and put it in your profile. 
-3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your github handle.  
+3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your Github handle.  
 4. Copy the url next to "HTTPS"
  
 ### Creating Local Clone
