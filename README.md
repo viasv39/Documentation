@@ -24,7 +24,7 @@ This is a general calendar for the events, meetings, due dates that may be comin
 
 | Event Title | Location | Start | End | Agenda/Notes |
 |:-----------:|:--------:|:-----:|:---:|:------------:|
-|Team Meeting | Union? Otherwise Library 3503 | Tuesday 12pm | - | - |
+|Team Meeting | Union? Otherwise Library 3503 | Wednesday 12pm | - | - |
 
 ## Meeting Notes
 
