@@ -17,7 +17,8 @@ Its good practice to utilize "pull requests" when making changes. To do this:
 3. Navigate to your fork: `https://github.com/<your-github-username>/CSC190` replacing `<your-github-username>` with your Github handle.  
 4. Copy the url next to "HTTPS"
  
-### Creating Local Clone
+### Creating Local Clone 
+
  
 1. Install Git on your machine: [Instructions](https://help.github.com/articles/set-up-git/) 
 2. Open terminal or command prompt(Windows) 
@@ -49,7 +50,7 @@ git remote -v 		# This will show all of the remote urls that you have stored
 # origin 	https://github.com/<your-github-username>/CSC190.git (fetch)
 # origin 	https://github.com/<your-github-username>/CSC190.git (push)
 ```
----
+--- 
 
 ## Making Changes
 
@@ -102,4 +103,4 @@ git diff HEAD		# Show differences with what is on the HEAD
 git commit -m "Add Message Here" # you can also leave off the `-m "Message` part. It will give you a vim window to type in.
 git pull --rebase origin master # pull latest code from the upstream
 git push origin master # always push to your fork
-```
+```  
