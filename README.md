@@ -14,7 +14,7 @@ This can be our central repository for everything in this class. The idea is to 
 
 | Name | Due Date | URL |
 |:----:|:--------:|:---:|
-| -    | -        | -   |
+| Presentation | Tues 3/8 | [Click Here](https://drive.google.com/open?id=1nqVnaM796qiKU9e2mdFeziig3Y2mQaazG3ZRLrYTKXA) |
 
 All papers, past and current, are visible on at this [LINK](https://drive.google.com/drive/u/0/folders/0B01T4L-ATMLhVTl6b2pIdW1yTjA). (access required)
 
@@ -24,7 +24,9 @@ This is a general calendar for the events, meetings, due dates that may be comin
 
 | Event Title | Location | Start | End | Agenda/Notes |
 |:-----------:|:--------:|:-----:|:---:|:------------:|
-|Team Meeting | Networking Room RVR 2nd floor. Otherwise Library 3503 | Wednesday 12pm | - | - |
+|Team Meeting | Networking Room RVR 2nd floor | Wednesday 12pm | - | - |
+| Advisor Meeting | ??? | Friday 12pm | - | - |
+| Khan | Khans room | Tues 3/1 | - | - |
 
 ## Meeting Notes
 
