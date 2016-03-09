@@ -7,5 +7,7 @@ tams-web:
   build: .
   ports:
    - "80:80"
+  environment:
+   - MYSQL_ROOT_PASSWORD=${MYSQLPASS}
   links:
    - tams-mysql:tams-mysql
