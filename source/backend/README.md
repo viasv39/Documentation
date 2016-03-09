@@ -36,7 +36,7 @@ Replace `somepass` with the password you would like to use for the mysql instanc
 Then give it a minute for the server to come up, then navigate to: http://ip-address/app/install.php
 
 ### View It
-Use `docker ps` to find the ip address of the tams-web server. Note that 0.0.0.0 and 127.0.0.1 is localhost.
+Use `docker ps` to find the ip address of the web server. Note that 0.0.0.0 and 127.0.0.1 is localhost.
 
 ## Rebuild With New Code
 

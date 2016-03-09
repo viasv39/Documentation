@@ -1,0 +1,24 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+  	- docker info
+    - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+    - sudo pip install --upgrade docker-compose==1.3.0
+
+test:
+  pre:
+    - docker-compose pull
+    - MYSQLPASS=testpass docker-compose up -d
+  override:
+    - ./circleci-test.sh
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - ./circleci-deploy.sh
+
+
