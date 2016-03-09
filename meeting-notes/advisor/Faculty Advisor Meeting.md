@@ -8,7 +8,9 @@ Start Time:
 End Time: 
 
 ## Team Members 
+
 [P=Present, A=Absent]
+
 1. [P/A] Daniel Jackson
 2. [P/A] Alejandro Pena
 3. [P/A] Aaron Williams
@@ -20,11 +22,11 @@ End Time:
 
 ## Agenda Items
 
-**1. Review and approve the minutes of the previous week's meeting**
-**2. Review prior week's progress (sprint accomplishments and issues)**
-**3. Update the advisor on the team's previous meeting with the sponsor**
-**4. Old Business Items**
-**5. New Business Items**
+1. **Review and approve the minutes of the previous week's meeting**
+2. **Review prior week's progress (sprint accomplishments and issues)**
+3. **Update the advisor on the team's previous meeting with the sponsor**
+4. **Old Business Items**
+5. **New Business Items**
 
 ## Next Team Meeting** 
 
