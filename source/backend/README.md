@@ -1,86 +1,71 @@
-Backend for TAMS
-====================================
+# Backend Server
 
+---
 
-How to install the Backend
---------------------------
-This document goes over how we have set up the TAMS web application and API.
+## Prerequisites
 
+- Docker
+	- **Linux**: https://docs.docker.com/engine/installation/
+	- **OSX**: docker on OSX is more difficult than in linux. Dont use the recommended method for installation, its flawed. OSX  tries to make you use a VM for all of this kind of stuff. Do the following for OSX:
+		- Install Homebrew
+		- `brew install docker`
+		- `brew install dlite`
+		  - `sudo dlite install`
+		- `dlite start`
+		- Use docker normally...
+- Docker-compose
+	- **Linux**: `sudo apt-get install docker-compose`
+	- **OSX**: It should come pre-installed when you `brew install docker`
 
-**Assumptions**
+## Why Docker?
 
-For a server set up, you can use this as a base, however, it might require a different approach unless you have complete control (i.e. you are root) on the server and can install all the dependencies, secure the machine, etc. So, use these instructions as a starting point rather than a definitive “this is the ultimate way” step-by-step guide.
+Docker is pretty great. As an example, lets discuss PHP. To install and run PHP locally, you need to install Apachi, PHP, and Mysql then configure them all manually so that they work together. If you change machines, rinse and repeat.
 
+Docker allows developers to configure the server once, then deploy it on many machines. It utilizes virtual containers to house the applications. Because of this, once the container is running, you can ssh into it, ping it, etc. The server configuration settings carry over to each machine. After the initial setup, to deploy and run on another server requires 1 line of code, assuming Docker is already installed.
 
-**Download**
-- Option 1: If you don’t have the version control system git you’ll need to install it. For Debian based system use: apt-get install git
-- Option 2: Copy the contets of the "Backend" folder into the machine.
+## Installation
 
-
-
-Install the Dependencies
-------------------------
-**We need the following bits and pieces**
-- Apache with the fillowing modules enabled:
-  - rewrite
-  - headers
-  - php
-- PHP
-  - Version >=5.5
-- MySQL
-
-**For Debian based machines run the following commands to install the requirements:**
+Navigate to this folder and type: 
 
 ```
-sudo apt-get install apache2 php5 php5-cli mysql-server libmysqlclient15-dev php5-mysql
-```
-```
-# Enable the apache modules
-a2enmod php
-a2enmod rewrite
-a2enmod headers
-service apache2 restart
+MYSQLPASS=somepass docker-compose up -d
 ```
 
+Replace `somepass` with the password you would like to use for the mysql instance
 
-**Moving the web application in the correct spot**
-```
-# For Debian
-mv Backend/* /var/www       # This will overwrite anything in the www directory
-```
+Then give it a minute for the server to come up, then navigate to: http://ip-address/app/install.php
 
+### View It
+Use `docker ps` to find the ip address of the tams-web server. Note that 0.0.0.0 and 127.0.0.1 is localhost.
 
-MySQL
------
-We now need to create a database in MySQL and load the schema. We assume that you have MySQL running and that your MySQL super user is root and the account has a password.
+## Rebuild With New Code
 
-Step one. Create the database. This is pretty simple:
-```
-mysqladmin -u root -p create tams
-Enter password: ****
-```
+There is another way... I can setup a volume so that rebuilding is not necessary. I will look into this.. later.
 
-Step two. Import the schema:
-```
-mysql -u root -p tams < Backend/db/schema.sql
-Enter password: ****
-```
-
-
-Configure the web application itself (If required)
---------------------------------------------------
-Edit the file "config.php" which should now reside in "/var/www/config.php"
+**If you used the automatic install method:**
 
 ```
-# For Debian Based systems
-nano /var/www/config.php
-
-# Change the data base configuration to suit your setup
+docker-compose build && MYSQLPASS=somepass docker-compose up -d
 ```
 
+Replace `somepass` with the password you would like to use for the mysql instance
 
-Look at the result
-------------------
-You should now be able to view the results at your webserver URL
+## Stop & Remove the container
 
-Hopefully, you should see a working version of TAMS but without any data in it. This is because we haven’t loaded anything into the database yet.
+**!!!IMPORTANT!!!** Because the mysql server utilizes a volume so that things can be stopped, started, updated, etc, it is imperitive that you do NOT use `docker-compose kill` OR `docker kill`. This WILL cause **corruption** on the database.
+
+**If you used the automatic install method:**
+
+```bash
+docker-compose down
+```
+
+## Other Docker Commands
+
+```
+docker ps                        # view containers
+docker images                    # view images
+docker rmi image-label           # remove image
+docker rm container-label        # remove container
+docker inspect container-label   # container properties
+```

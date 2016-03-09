@@ -1,0 +1,11 @@
+
+tams-mysql:
+  image: mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=${MYSQLPASS}
+tams-web:
+  build: .
+  ports:
+   - "80:80"
+  links:
+   - tams-mysql:tams-mysql

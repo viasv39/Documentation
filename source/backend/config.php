@@ -2,9 +2,9 @@
 /**
  * DB configuration variables
  */
-define("DB_HOST", "localhost");
-define("DB_USER", "tams");
-define("DB_PASSWORD", "tams");
+define("DB_HOST", "tams-mysql");
+define("DB_USER", "root");
+define("DB_PASSWORD", $_ENV["MYSQL_ROOT_PASSWORD"]);
 define("DB_DATABASE", "tams");
 
 
