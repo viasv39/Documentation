@@ -2,7 +2,7 @@ mysql:
   image: mysql
   environment:
    - MYSQL_ROOT_PASSWORD=${MYSQLPASS}
-web:
+php:
   build: .
   ports:
    - "8000:80"
